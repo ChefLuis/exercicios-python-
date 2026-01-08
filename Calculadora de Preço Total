@@ -1,0 +1,15 @@
+# ==============================
+# 4. Calculadora de Preço Total
+# ==============================
+def calcular_preco_total():
+    produto = "Cadeira Infantil"
+    preco_unitario = 12.40
+    quantidade = 3
+
+    total = preco_unitario * quantidade
+
+    print("Resumo da Compra")
+    print(f"Produto: {produto}")
+    print(f"Preço unitário: R$ {preco_unitario:.2f}")
+    print(f"Quantidade: {quantidade}")
+    print(f"Preço total: R$ {total:.2f}")
