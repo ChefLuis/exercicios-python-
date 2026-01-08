@@ -13,3 +13,19 @@ def calcular_preco_total():
     print(f"Preço unitário: R$ {preco_unitario:.2f}")
     print(f"Quantidade: {quantidade}")
     print(f"Preço total: R$ {total:.2f}")
+
+
+# ==============================
+# Execução do programa
+# ==============================
+if __name__ == "__main__":
+    saudacao()
+    print("-" * 40)
+
+    calcular_soma()
+    print("-" * 40)
+
+    calcular_volume()
+    print("-" * 40)
+
+    calcular_preco_total()
