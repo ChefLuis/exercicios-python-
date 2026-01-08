@@ -1,0 +1,10 @@
+# ==============================
+# 2. Calculadora de Soma
+# ==============================
+def calcular_soma():
+    numero1 = 12
+    numero2 = 14
+    resultado = numero1 + numero2
+
+    print("Calculadora de Soma")
+    print(f"{numero1} + {numero2} = {resultado}")
